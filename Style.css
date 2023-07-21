@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    background-color: skyblue;
+    position:fixed;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.logo{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    color: bisque;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 70px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 17px;
+}
+
+.main_img{
+    width: 100%;
+    height: 300px;
+}
+
+.section1{
+    padding-top: 70px;
+}
+
+.img_text{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    font-size: 35px;
+    background-color: midnightblue;
+    padding-right: 20px;
+    padding: 20px;
+}
+.School_img{
+    width: 100%;
+    height: 250px;
+}
+
+.container{
+    padding-top: 70px;
+}
+
+.teacher{
+    width: 90%;
+    height: 200px;
+}
+
+.lable_text
+{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: beige;
+    height: 70px;
+    width: 100%;
+}
+
+.form_deg{
+    padding-top: 200px;
+
+}
+
+.lable_deg{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login_form{
+    background-color: black;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.title_deg{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.body_deg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.input_deg{
+    width:30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+.adm_int{
+    padding-top: 10px;
+}
+
+.input_txt{
+    width:30%;
+    height: 120px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+#submit{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
